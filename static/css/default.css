@@ -1,11 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Exo+2:400,100&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700);
 
 body {
     color: #E9E9E9;
     font-size: 17px;
-    font-family: 'Exo 2', cursive;
-    background: #222930;
-    padding-top: 70px;
+    font-family: 'Source Code Pro', monospace;
+    background-color: #586e75;
+    padding-top: 90px;
 }
 
 .intro {
@@ -14,6 +14,34 @@ body {
     padding-right: 35px;
     border-bottom: solid 1px #ccc;
     color: #444;
+}
+
+.mycode {
+    font-size: 20px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+pre {
+    background-color: #fdf6e3;
+    padding: 20px;
+    border: 1px solid #eee;
+}
+
+.string {
+    color: #dc322f;
+}
+
+.type {
+    color: #b58900;
+}
+
+.function {
+    color: #268bd2;
+}
+
+.keyword {
+    color: #2aa198;
+    font-weight: 700 !important;
 }
 
 div#header {
@@ -54,15 +82,15 @@ h3 {
 }
 
 a, a:visited, a:active {
-    color: #E9E9E9;
+    color: #dc322f;
     text-decoration: none;
-    /* border-bottom: 1px #333 dotted; */
+    border-bottom: 1px #333 dotted;
 }
 
 a:hover {
-    color: #4EB1BA;
+    color: #dc322f;
     text-decoration: none;
-    /* border-bottom: 1px #999 solid; */
+    border-bottom: 1px #999 solid;
 }
 
 .my-name {
